@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TB Python Data Player: ",
+            "type": "debugpy",
+            "request": "launch",
+            // "python": "D:\\Users\\31505\\miniconda3\\envs\\dp_dev\\python.exe",
+            "python": "D:\\Users\\31505\\miniconda3\\envs\\dpd\\python.exe",
+            "program": "app.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "python": "F:\\anaconda\\envs\\dp_dev\\python.exe",
+            "request": "launch",
+            "program": "app.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
